@@ -17,7 +17,7 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe um valor em pés: ");
+    printf("%s", "Informe um valor em pés: ");
     scanf("%f%*c", &vPes);
 
     // cálculo

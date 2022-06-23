@@ -16,19 +16,19 @@ int main()
     system("cls || clear");
 
     // input
-    printf("Infome a primeira nota: ");
+    printf("%s", "Infome a primeira nota: ");
     scanf("%f%*c", &n1);
-    printf("Informe o primeiro peso: ");
+    printf("%s", "Informe o primeiro peso: ");
     scanf("%f%*c", &p1);
 
-    printf("Infome a segunda nota: ");
+    printf("%s", "Infome a segunda nota: ");
     scanf("%f%*c", &n2);
-    printf("Informe o segundo peso: ");
+    printf("%s", "Informe o segundo peso: ");
     scanf("%f%*c", &p2);
 
-    printf("Infome a terceira nota: ");
+    printf("%s", "Infome a terceira nota: ");
     scanf("%f%*c", &n3);
-    printf("Informe o terceiro peso: ");
+    printf("%s", "Informe o terceiro peso: ");
     scanf("%f%*c", &p3);
 
     // cálculo das notas

@@ -17,18 +17,18 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe três número em ordem crescente: ");
+    printf("%s", "Informe três número em ordem crescente: ");
     scanf("%d%*c%d%*c%d%*c", &num1, &num2, &num3);
     
     // verifica se os números estão em ordem crescente
     if (num1 < num2 && num2 < num3)
     {
-        printf("Informe o quarto número: ");
+        printf("%s", "Informe o quarto número: ");
         scanf("%d%*c", &num4);
     }
     else
     {
-        printf("Os número informados não estão na ordem crescente.\n");
+        puts("Os número informados não estão na ordem crescente.");
     }
 
     // ordenando os quatro números
@@ -49,7 +49,7 @@ int main(void)
         printf("%d, %d, %d, %d", num1, num2, num3, num4);
     }
 
-    printf("\nAperte ENTER para continuar.");
+    puts("Aperte ENTER para continuar.");
     getchar();
 }
 

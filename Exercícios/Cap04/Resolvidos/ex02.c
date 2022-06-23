@@ -17,11 +17,11 @@ int main()
     system("cls || clear");
 
     // input
-    printf("Informe a nota 1: ");
+    printf("%s", "Informe a nota 1: ");
     scanf("%f%*c", &n1);
-    printf("Informe a nota 2: ");
+    printf("%s", "Informe a nota 2: ");
     scanf("%f%*c", &n2);
-    printf("Informe a nota 3: ");
+    printf("%s", "Informe a nota 3: ");
     scanf("%f%*c", &n3);
 
     // cálculo da média

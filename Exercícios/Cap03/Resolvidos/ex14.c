@@ -17,10 +17,10 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe o ano de nascimento: ");
+    printf("%s", "Informe o ano de nascimento: ");
     scanf("%d%*c", &anoNasc);
 
-    printf("Informe o ano atual: ");
+    printf("%s", "Informe o ano atual: ");
     scanf("%d%*c", &anoAtual);
 
     // cálculo

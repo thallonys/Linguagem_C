@@ -23,16 +23,16 @@ int main(void)
            "|      2     | A, B, C em ordem decrescente.             |\n"
            "|      3     | O maior fica entre os outros dois números.|\n"
            "|--------------------------------------------------------|\n");
-    printf("\nEscolha um valor: ");
+    printf("%s", "Escolha um valor: ");
     scanf("%d%*c", &I);
 
     if (I > 3)
     {
-        printf("Valor escolhido errado.");
+        puts("Valor escolhido errado.");
     }
     else
     {
-        printf("Digite valores para A, B e C, respectivamente: ");
+        printf("%s", "Digite valores para A, B e C, respectivamente: ");
         scanf("%f%*c%f%*c%f%*c", &A, &B, &C);
 
         if (A != B && B != C)
@@ -164,10 +164,10 @@ int main(void)
         }
         else
         {
-            printf("Nenhum número pode ser igual ao outro.\n");
+            puts("Nenhum número pode ser igual ao outro.");
         }
     }
 
-    printf("\nAperte ENTER para continuar.");
+    printf("%s", "\nAperte ENTER para continuar.");
     getchar();
 }

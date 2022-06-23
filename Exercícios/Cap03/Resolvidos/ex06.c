@@ -18,7 +18,7 @@ int main()
     system("cls || clear");
 
     // input
-    printf("Informe o salário base: ");
+    printf("%s", "Informe o salário base: ");
     scanf("%f%*c", &salarioB);
 
     // cálculo do salário a receber

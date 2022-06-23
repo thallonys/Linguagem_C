@@ -17,9 +17,9 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe o valor do depósito: ");
+    printf("%s", "Informe o valor do depósito: ");
     scanf("%f%*c", &deposito);
-    printf("Informe a taxa de juros: ");
+    printf("%s", "Informe a taxa de juros: ");
     scanf("%f%*c", &juros);
 
     // cálculo

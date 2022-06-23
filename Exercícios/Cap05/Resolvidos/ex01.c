@@ -17,7 +17,7 @@ int main()
     // limpa tela
     system("cls || clear");
 
-    printf("Informe o ano atual: ");
+    printf("%s", "Informe o ano atual: ");
     scanf("%d%*c", &anoAtual);
 
     // cálculo do salário reajustado até atualmente

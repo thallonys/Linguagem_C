@@ -16,11 +16,11 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe o primeiro número: ");
+    printf("%s", "Informe o primeiro número: ");
     scanf("%f%*c", &num1);
-    printf("Informe o segundo número: ");
+    printf("%s", "Informe o segundo número: ");
     scanf("%f%*c", &num2);
-    printf("Informe o terceiro número: ");
+    printf("%s", "Informe o terceiro número: ");
     scanf("%f%*c", &num3);
 
     // limpa tela

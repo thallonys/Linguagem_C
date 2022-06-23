@@ -1,1 +1,0 @@
-/*Apresentação de proposta para desenvolver Jogo Campo Minado*/

@@ -11,7 +11,7 @@ int main()
     float salario, nSalario, aumento = 15;
     system("cls || clear"); // limpa tela
     // input
-    printf("Informe o salário atual: ");
+    printf("%s", "Informe o salário atual: ");
     scanf("%f%*c", &salario);
 
     // cálculo do novo salário

@@ -16,7 +16,7 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe o valor do raio: ");
+    printf("%s", "Informe o valor do raio: ");
     scanf("%f%*c", &raio);
 
     // cálculo

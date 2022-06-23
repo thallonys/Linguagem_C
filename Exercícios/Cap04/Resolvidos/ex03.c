@@ -15,10 +15,10 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe o número 1: ");
+    printf("%s", "Informe o número 1: ");
     scanf("%f%*c", &num1);
 
-    printf("Informe o número 2: ");
+    printf("%s", "Informe o número 2: ");
     scanf("%f%*c", &num2);
 
     // estrutura condicional

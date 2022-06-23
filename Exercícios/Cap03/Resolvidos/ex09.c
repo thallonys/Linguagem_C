@@ -16,10 +16,10 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe o valor da base da pir‚mide: ");
+    printf("%s", "Informe o valor da base da pir‚mide: ");
     scanf("%f%*c", &base);
 
-    printf("Informe o valor da altura da pir‚mide: ");
+    printf("%s", "Informe o valor da altura da pir‚mide: ");
     scanf("%f%*c", &altura);
 
     // c√°lculo

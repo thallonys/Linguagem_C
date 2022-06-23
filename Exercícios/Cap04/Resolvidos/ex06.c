@@ -14,20 +14,20 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe um número inteiro qualquer: ");
+    printf("%s", "Informe um número inteiro qualquer: ");
     scanf("%d%*c", &numero);
 
     // cÃ¡lculo
     if (numero % 2 == 0)
     {
-        printf("Esse número é par.\n");
+        puts("Esse número é par.");
     }
     else
     {
-        printf("Esse número é ímpar.\n");
+        puts("Esse número é ímpar.");
     }
 
-    printf("\nAperte ENTER para continuar.");
+    puts("Aperte ENTER para continuar.");
     getchar();
 
 }

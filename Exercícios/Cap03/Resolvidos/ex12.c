@@ -17,10 +17,10 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe o valor da base: ");
+    printf("%s", "Informe o valor da base: ");
     scanf("%d%*c", &num1);
 
-    printf("Informe o valor do expoente: ");
+    printf("%s", "Informe o valor do expoente: ");
     scanf("%d%*c", &num2);
 
     // cálculo

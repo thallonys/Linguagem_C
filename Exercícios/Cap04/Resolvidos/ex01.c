@@ -18,11 +18,11 @@ int main()
    system("cls || clear");
 
    // input
-   printf("Informa a nota do Trabalho de laboratório: ");
+   printf("%s", "Informa a nota do Trabalho de laboratório: ");
    scanf("%f%*c", &n1);
-   printf("Informe a nota da Avaliação semestral: ");
+   printf("%s", "Informe a nota da Avaliação semestral: ");
    scanf("%f%*c", &n2);
-   printf("Informe a nota do Exame final: ");
+   printf("%s", "Informe a nota do Exame final: ");
    scanf("%f%*c", &n3);
 
    // cálculo da média

@@ -19,13 +19,13 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("Informe o valor de fábrica de um veículo: ");
+    printf("%s", "Informe o valor de fábrica de um veículo: ");
     scanf("%f%*c", &valFabrica);
 
-    printf("Informe o percentual de lucro do distribuidor: ");
+    printf("%s", "Informe o percentual de lucro do distribuidor: ");
     scanf("%f%*c", &perLucroDist);
 
-    printf("Informe o percentual de impostos: ");
+    printf("%s", "Informe o percentual de impostos: ");
     scanf("%f%*c", &perImposto);
 
     // cálculo

@@ -15,13 +15,13 @@ int main()
   system("cls || clear");
 
   // input
-  printf("Insira a primeira nota: ");
+  printf("%s", "Insira a primeira nota: ");
   scanf("%d%*c", &n1);
 
-  printf("Insira a segunda nota: ");
+  printf("%s", "Insira a segunda nota: ");
   scanf("%d%*c", &n2);
 
-  printf("Insira a terceira nota: ");
+  printf("%s", "Insira a terceira nota: ");
   scanf("%d%*c", &n3);
 
   // cálculo da média

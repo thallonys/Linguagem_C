@@ -17,10 +17,10 @@ int main()
     system("cls || clear");
 
     // input
-    printf("Informe o salário atual: ");
+    printf("%s", "Informe o salário atual: ");
     scanf("%f%*c", &salario);
 
-    printf("Informe o percentual de aumento: ");
+    printf("%s", "Informe o percentual de aumento: ");
     scanf("%f*c", &pAumento);
 
     // Cálculo no novo salário
