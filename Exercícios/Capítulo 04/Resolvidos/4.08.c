@@ -17,7 +17,7 @@ int main(void)
     system("cls || clear");
 
     // input
-    printf("|--------------------------------------------------------|\n"
+    printf("%s", "|--------------------------------------------------------|\n"
            "| Valor de I |             Forma a escrever              |\n"
            "|      1     | A, B, C em ordem crescente.               |\n"
            "|      2     | A, B, C em ordem decrescente.             |\n"
